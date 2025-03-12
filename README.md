@@ -15,6 +15,14 @@ CLIP is a command-line interface to chat with LLM models that supports OpenAI's 
 - **Command Interface**: Intuitive slash commands with autocomplete
 - **Response ID Tracking**: Uses OpenAI's response IDs for conversation continuity
 
+
+<div align="center">
+  <a href="https://rbadillap.dev">
+    <img src="docs/image.png" alt="CLI Interface Demo" width="600" />
+  </a>
+</div>
+
+
 ## Technical Overview
 
 CLIP is built as a personal tool using:
