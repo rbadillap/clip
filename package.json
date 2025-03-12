@@ -1,0 +1,43 @@
+{
+  "name": "clip-ai",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A command-line interface to chat with LLM models that supports OpenAI's Response API",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "openai",
+    "cli",
+    "gpt",
+    "chat",
+    "ai",
+    "terminal",
+    "prompt"
+  ],
+  "author": {
+    "name": "Ronny Badilla",
+    "email": "info@rbadillap.dev",
+    "url": "https://rbadillap.dev"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "openai": "4.21.0", 
+    "chalk": "4.1.2"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rbadillap/clip.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rbadillap/clip/issues"
+  },
+  "homepage": "https://github.com/rbadillap/clip#readme",
+  "bin": {
+    "clip": "./index.js"
+  }
+}
